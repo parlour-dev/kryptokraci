@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 
 import { BsTwitter, BsDiscord, BsTelegram } from "react-icons/bs"
+import Hourglass from '../../public/hourglass.gif'
 
 const IndexPage = () => {
   return (
@@ -12,17 +13,18 @@ const IndexPage = () => {
           <span className="text-[#01ba7c]">{"]"}</span>RYPTOKRACI
         </h1>
 
-        <h2 className="text-3xl md:text-5xl mt-8">COMING SOON</h2>
+        <h2 className="text-xl md:text-3xl mt-8">COMING SOON</h2>
       </div>
-      <div className="w-full flex justify-center gap-16 mb-10">
+      <img className="w-32 mx-auto" src={Hourglass} alt="hourglass animation" />
+      <div className="w-full flex justify-center gap-16 mb-32">
         <Link to="https://twitter.com/kryptokraci" target="_blank">
-          <BsTwitter color="white" size={28} />
+          <BsTwitter color="white" size={36} />
         </Link>
         <Link to="https://discord.gg/hq3WRARb" target="_blank">
-          <BsDiscord color="white" size={28} />
+          <BsDiscord color="white" size={36} />
         </Link>
         <Link to="https://t.me/Kryptokraci" target="_blank">
-          <BsTelegram color="white" size={28} />
+          <BsTelegram color="white" size={36} />
         </Link>
       </div>
     </div>
