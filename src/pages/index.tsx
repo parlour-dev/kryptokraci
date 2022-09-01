@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 
 import { BsTwitter, BsDiscord, BsTelegram } from "react-icons/bs"
-import Hourglass from '../../public/hourglass.gif'
+import Hourglass from '../images/hourglass.gif'
 
 const IndexPage = () => {
   return (
